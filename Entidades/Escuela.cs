@@ -9,9 +9,8 @@ namespace CoreEscuela.Entidades {
         public string Pais { get; set; }
         public string Ciudad { get; set; }
         public TiposEscuela TiposEscuela { get; set; }
-
+        public Curso[] Cursos { get; set; }
         public Escuela(string nombre, int año) => (Nombre, AñoCreación) = (nombre, año);
-
         public Escuela(string nombre, int año,
                 TiposEscuela tipo,
                 string pais = "", string ciudad = "") {
@@ -22,7 +21,7 @@ namespace CoreEscuela.Entidades {
         }
 
         public override string ToString() {
-            return $"Nombre: \"{Nombre}\"{System.Environment.NewLine}Pais: {Pais}\nCiudad: {Ciudad}\nAño de Creación: {AñoCreación}\nTiposEscuela: {TiposEscuela}";
+            return $"Nombre: \"{Nombre}\"{System.Environment.NewLine}Pais: {Pais}, Ciudad: {Ciudad}\nAño de Creación: {AñoCreación}\nTiposEscuela: {TiposEscuela}";
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using CoreEscuela.Entidades;
+using static System.Console;
 
 namespace Etapa1 {
     class Program {
@@ -8,20 +9,26 @@ namespace Etapa1 {
                             TiposEscuela.Secundaria,
                             ciudad: "GT CT", pais: "GT");
 
-            var curso1 = new Curso() {
-                Nombre = "Instrucción Militar"
+            //var arregloCursos = new Curso[3];
+            Curso[] arregloCursos = {
+                new Curso() {Nombre = "Instrucción Militar"},
+                new Curso() {Nombre = "Español"},
+                new Curso{Nombre = "Historia"}
             };
 
-            var curso2 = new Curso() {
-                Nombre = "Español"
-            };
-            var curso3 = new Curso() {
-                Nombre = "Historia"
-            };
+            miescuela.Cursos = arregloCursos;
 
-            Console.WriteLine(miescuela);
-            System.Console.WriteLine("=====================");
-            Console.WriteLine(curso1);
+            WriteLine(miescuela);
+            WriteLine("=====================");
+            imprimirArreglo(miescuela);
+        }
+
+        private static void imprimirArreglo(Escuela escuela) {
+            if (escuela?.Cursos != null) {
+                foreach (var curso in escuela.Cursos) {
+                    WriteLine(curso);
+                }
+            }
         }
     }
 }

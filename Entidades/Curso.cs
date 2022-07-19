@@ -9,7 +9,7 @@ namespace CoreEscuela.Entidades {
         public Curso() => UniqueID = Guid.NewGuid().ToString();
 
         public override string ToString() {
-            return $"UID: {UniqueID}{System.Environment.NewLine}Nombre: \"{Nombre}\"";
+            return $"UID: {UniqueID} | Nombre: \"{Nombre}\"";
         }
     }
 }
