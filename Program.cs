@@ -25,10 +25,11 @@ namespace Etapa1 {
             Curso tmp = new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Vespertino };
             WriteLine("Hash = " + tmp.GetHashCode());
             miescuela.Cursos.Add(tmp);
+            miescuela.Cursos.Add(new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Matutino });
             imprimirArreglo(miescuela);
             WriteLine("=====================");
 
-            int v = miescuela.Cursos.RemoveAll(cur => cur.Nombre == "XXX");
+            int v = miescuela.Cursos.RemoveAll(cur => cur.Nombre == "XXX" && cur.TipoJornada == TipoJornada.Vespertino);
 
             imprimirArreglo(miescuela);
         }
