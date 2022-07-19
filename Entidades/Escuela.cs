@@ -9,7 +9,7 @@ namespace CoreEscuela.Entidades {
         public string Pais { get; set; }
         public string Ciudad { get; set; }
         public TiposEscuela TiposEscuela { get; set; }
-        public Curso[] Cursos { get; set; }
+        public List<Curso> Cursos { get; set; }
         public Escuela(string nombre, int año) => (Nombre, AñoCreación) = (nombre, año);
         public Escuela(string nombre, int año,
                 TiposEscuela tipo,

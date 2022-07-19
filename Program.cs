@@ -10,7 +10,7 @@ namespace Etapa1 {
                             ciudad: "GT CT", pais: "GT");
 
             //var arregloCursos = new Curso[3];
-            Curso[] arregloCursos = {
+            List<Curso> arregloCursos = new List<Curso>{
                 new Curso() {Nombre = "Instrucción Militar"},
                 new Curso() {Nombre = "Español"},
                 new Curso{Nombre = "Historia"}
