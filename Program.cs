@@ -25,12 +25,16 @@ namespace Etapa1 {
             Curso tmp = new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Vespertino };
             WriteLine("Hash = " + tmp.GetHashCode());
             miescuela.Cursos.Add(tmp);
-            int v = miescuela.Cursos.RemoveAll(predicado);
+            imprimirArreglo(miescuela);
+            WriteLine("=====================");
+
+            Predicate<Curso> predicate = Predicado;
+            int v = miescuela.Cursos.RemoveAll(predicate);
 
             imprimirArreglo(miescuela);
         }
 
-        private static bool predicado(Curso curso) {
+        private static bool Predicado(Curso curso) {
             return curso.Nombre == "XXX";
         }
 
