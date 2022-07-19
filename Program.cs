@@ -28,9 +28,7 @@ namespace Etapa1 {
             imprimirArreglo(miescuela);
             WriteLine("=====================");
 
-            int v = miescuela.Cursos.RemoveAll(delegate (Curso cur) {
-                return cur.Nombre == "XXX";
-            });
+            int v = miescuela.Cursos.RemoveAll(cur => cur.Nombre == "XXX");
 
             imprimirArreglo(miescuela);
         }
