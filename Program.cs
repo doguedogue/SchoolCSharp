@@ -7,7 +7,9 @@ namespace Etapa1 {
             var miescuela = new Escuela("iavhc", 1995);
             miescuela.Pais = "GT";
             miescuela.Ciudad = "GT";
-            Console.WriteLine(miescuela.Nombre);
+            miescuela.AñoCreación = 1965;
+            miescuela.TiposEscuela = TiposEscuela.Primaria;
+            Console.WriteLine(miescuela);
         }
     }
 }
