@@ -2,40 +2,13 @@
 using CoreEscuela.Entidades;
 using static System.Console;
 
-namespace Etapa1 {
+namespace CoreEscuela {
     class Program {
         static void Main(string[] args) {
-            var miescuela = new Escuela("iavhc", 1995,
-                            TiposEscuela.Secundaria,
-                            ciudad: "GT CT", pais: "GT");
+            var escuelaEngine = new EscuelaEngine();
+            escuelaEngine.inicializa();
 
-            //var arregloCursos = new Curso[3];
-            List<Curso> arregloCursos = new List<Curso>{
-                new Curso() {Nombre = "Instrucción Militar", TipoJornada = TipoJornada.Matutino},
-                new Curso() {Nombre = "Español", TipoJornada = TipoJornada.Matutino},
-                new Curso{Nombre = "Historia", TipoJornada = TipoJornada.Matutino}
-            };
-
-            miescuela.Cursos = arregloCursos;
-            miescuela.Cursos.Add(new Curso() { Nombre = "Matematicas", TipoJornada = TipoJornada.Vespertino });
-
-            WriteLine(miescuela);
-            WriteLine("=====================");
-
-            Curso tmp = new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Vespertino };
-            WriteLine("Hash = " + tmp.GetHashCode());
-            miescuela.Cursos.Add(tmp);
-            miescuela.Cursos.Add(new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Matutino });
-            imprimirArreglo(miescuela);
-            WriteLine("=====================");
-
-            int v = miescuela.Cursos.RemoveAll(cur => cur.Nombre == "XXX" && cur.TipoJornada == TipoJornada.Vespertino);
-
-            imprimirArreglo(miescuela);
-        }
-
-        private static bool Predicado(Curso curso) {
-            return curso.Nombre == "XXX";
+            imprimirArreglo(escuelaEngine.Escuela);
         }
 
         private static void imprimirArreglo(Escuela escuela) {
