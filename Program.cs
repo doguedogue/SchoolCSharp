@@ -11,19 +11,33 @@ namespace Etapa1 {
 
             //var arregloCursos = new Curso[3];
             List<Curso> arregloCursos = new List<Curso>{
-                new Curso() {Nombre = "Instrucción Militar"},
-                new Curso() {Nombre = "Español"},
-                new Curso{Nombre = "Historia"}
+                new Curso() {Nombre = "Instrucción Militar", TipoJornada = TipoJornada.Matutino},
+                new Curso() {Nombre = "Español", TipoJornada = TipoJornada.Matutino},
+                new Curso{Nombre = "Historia", TipoJornada = TipoJornada.Matutino}
             };
 
             miescuela.Cursos = arregloCursos;
+            miescuela.Cursos.Add(new Curso() { Nombre = "Matematicas", TipoJornada = TipoJornada.Vespertino });
 
             WriteLine(miescuela);
             WriteLine("=====================");
+
+            Curso tmp = new Curso() { Nombre = "XXX", TipoJornada = TipoJornada.Vespertino };
+            WriteLine("Hash = " + tmp.GetHashCode());
+            miescuela.Cursos.Add(tmp);
+            int v = miescuela.Cursos.RemoveAll(predicado);
+
             imprimirArreglo(miescuela);
         }
 
+        private static bool predicado(Curso curso) {
+            return curso.Nombre == "XXX";
+        }
+
         private static void imprimirArreglo(Escuela escuela) {
+            WriteLine("=====================");
+            WriteLine("=======CURSOS========");
+            WriteLine("=====================");
             if (escuela?.Cursos != null) {
                 foreach (var curso in escuela.Cursos) {
                     WriteLine(curso);
