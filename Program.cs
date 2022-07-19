@@ -28,8 +28,9 @@ namespace Etapa1 {
             imprimirArreglo(miescuela);
             WriteLine("=====================");
 
-            Predicate<Curso> predicate = Predicado;
-            int v = miescuela.Cursos.RemoveAll(predicate);
+            int v = miescuela.Cursos.RemoveAll(delegate (Curso cur) {
+                return cur.Nombre == "XXX";
+            });
 
             imprimirArreglo(miescuela);
         }
