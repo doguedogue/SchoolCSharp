@@ -18,7 +18,11 @@ namespace CoreEscuela {
             CargaCursos();
             CargaAsignaturas();
 
-            CargaAlumnos();
+            foreach (var curso in Escuela.Cursos) {
+                var listaAlumnos = CargaAlumnos();
+                //curso.Alumnos.AddRange(listaAlumnos);
+            }
+
             CargaEvaluaciones();
         }
 
@@ -34,18 +38,21 @@ namespace CoreEscuela {
                     new Asignatura{Nombre="Historia"},
                     new Asignatura{Nombre="Matemáticas"}
                 };
+                curso.Asignaturas = listaAsignaturas;
             }
         }
 
-        private void CargaAlumnos() {
-            string[] nombre1 = { "Judith", "Felipe", "Minerva", "Calvin", "Rafael", "Miriam", "Elsa" };
-            string[] nombre2 = { "David", "Victoria", "Guadalupe", "Dominic", "Lucely", "Julio", "Leonardo" };
-            string[] apellido1 = { "Perez", "Lopez", "Martinez", "Hernandez", "Suarez", "Guzman", "Herrera" };
+        private IEnumerable<Alumno> CargaAlumnos() {
+            string[] nombre1 = { "Judith", "Felipe", "Minerva", "Calvin", "Rafael", "Miriam", "Elsa" ,
+                                "David", "Victoria", "Guadalupe", "Dominic", "Lucely", "Julio", "Leonardo" };
+            string[] apellido1 = { "Cruz", "Treviño", "Garza", "Sanchez", "Torres", "Robles", "Gomez" };
+            string[] apellido2 = { "Pérez", "López", "Martínez", "Hernández", "Suarez", "Guzman", "Herrera" };
 
             var listaAlumnos = from n1 in nombre1
-                               from n2 in nombre1
-                               from a1 in nombre1
-                               select new Alumno { Nombre = $"{n1} {n2} {a1}" };
+                               from a1 in apellido1
+                               from a2 in apellido2
+                               select new Alumno { Nombre = $"{n1} {a1} {a2}" };
+            return listaAlumnos;
 
         }
 
