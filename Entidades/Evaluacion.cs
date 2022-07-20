@@ -12,7 +12,7 @@ namespace CoreEscuela.Entidades {
         public Evaluacion() => UniqueID = Guid.NewGuid().ToString();
 
         public override string ToString() {
-            return $"UID: {UniqueID} |  Nombre: \"{Nombre}\"";
+            return $"UID: {UniqueID} |  Nombre: \"{Nombre}\" Calificación: {Calificacion.ToString("0.00")}";
         }
     }
 }

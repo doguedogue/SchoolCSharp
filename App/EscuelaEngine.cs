@@ -22,10 +22,14 @@ namespace CoreEscuela {
         }
 
         private void CargaEvaluaciones() {
+            // int cont = 0;
             foreach (var curso in Escuela.Cursos) {
                 foreach (var asignatura in curso.Asignaturas) {
                     foreach (var alumno in curso.Alumnos) {
-                        var rnd = new Random(System.Environment.TickCount);
+                        Random rndint = new Random();
+                        int salt = rndint.Next(1, 1000);
+                        var rnd = new Random(System.Environment.TickCount * salt);
+
                         for (int i = 0; i < 5; i++) {
                             var evaluacion = new Evaluacion {
                                 Nombre = $"{asignatura.Nombre} Ev#{i + 1}",
@@ -33,6 +37,9 @@ namespace CoreEscuela {
                                 Asignatura = asignatura,
                                 Calificacion = (float)(rnd.NextDouble() * 10)
                             };
+                            // if (i == 0 && cont++ < 20)
+                            //     WriteLine("Alumno: " + alumno.Nombre + " " + evaluacion);
+
                             alumno.Evaluaciones.Add(evaluacion);
                         }
                     }

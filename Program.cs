@@ -22,7 +22,8 @@ namespace CoreEscuela {
                 foreach (var curso in escuela.Cursos) {
                     WriteLine(curso);
                     WriteLine("\t\tAlumn@: " + curso.Alumnos[0].Nombre);
-                    WriteLine("\t\tEvaluación: " + curso.Alumnos[0].Evaluaciones[0].Nombre + "\t\t| Calificación: " + curso.Alumnos[0].Evaluaciones[0].Calificacion.ToString("0.00"));
+                    WriteLine("\t\tEvaluación: " + curso.Alumnos[0].Evaluaciones[0].Nombre +
+                            "\t\t| Calificación: " + curso.Alumnos[0].Evaluaciones[0].Calificacion.ToString("0.00"));
                 }
             }
         }
