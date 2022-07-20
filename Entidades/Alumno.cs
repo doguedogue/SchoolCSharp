@@ -5,7 +5,12 @@ namespace CoreEscuela.Entidades {
         public string UniqueID { get; private set; }
         public string Nombre { get; set; }
 
-        public Alumno() => UniqueID = Guid.NewGuid().ToString();
+        public List<Evaluacion> Evaluaciones { get; set; }
+
+        public Alumno() {
+            UniqueID = Guid.NewGuid().ToString();
+            Evaluaciones = new List<Evaluacion>();
+        }
 
         public override string ToString() {
             return $"UID: {UniqueID} |  Nombre: \"{Nombre}\"";

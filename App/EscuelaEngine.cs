@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using CoreEscuela.Entidades;
+using static System.Console;
 
 namespace CoreEscuela {
     public class EscuelaEngine {
@@ -21,7 +22,22 @@ namespace CoreEscuela {
         }
 
         private void CargaEvaluaciones() {
-
+            foreach (var curso in Escuela.Cursos) {
+                foreach (var asignatura in curso.Asignaturas) {
+                    foreach (var alumno in curso.Alumnos) {
+                        var rnd = new Random(System.Environment.TickCount);
+                        for (int i = 0; i < 5; i++) {
+                            var evaluacion = new Evaluacion {
+                                Nombre = $"{asignatura.Nombre} Ev#{i + 1}",
+                                Alumno = alumno,
+                                Asignatura = asignatura,
+                                Calificacion = (float)(rnd.NextDouble() * 10)
+                            };
+                            alumno.Evaluaciones.Add(evaluacion);
+                        }
+                    }
+                }
+            }
         }
 
         private void CargaAsignaturas() {

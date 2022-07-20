@@ -2,14 +2,16 @@
 
 ## POO
 
-### Create
-`dotnet new console`
-
 ### Run
 `dotnet run`
 
 ### Build
 `dotnet build`
+
+<hr>
+
+### Create
+`dotnet new console`
 
 ### My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
