@@ -1,4 +1,4 @@
-# C# School
+# C# (sharp) School
 
 ## POO
 
