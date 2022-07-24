@@ -1,6 +1,6 @@
 # C# (sharp) School 🎒
 
-## POO
+## POO 🥊
 
 ### Run
 `dotnet run`
