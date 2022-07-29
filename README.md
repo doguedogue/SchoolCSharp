@@ -1,6 +1,8 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO)
+- Inheritance
+- Polymorphism 
 
 ### Run 🚀
 `dotnet run`
