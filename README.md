@@ -2,10 +2,10 @@
 
 ## OOP Object Oriented Programming (POO)
 
-### Run
+### Run 🚀
 `dotnet run`
 
-### Build
+### Build ⚙️
 `dotnet build`
 
 <hr>
