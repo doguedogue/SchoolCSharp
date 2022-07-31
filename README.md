@@ -1,6 +1,6 @@
 # C# (sharp) School 🎒
 
-## OOP Object Oriented Programming (POO)
+## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
 - Inheritance (Herencia)
 - Polymorphism (Polimorfismo)
 
