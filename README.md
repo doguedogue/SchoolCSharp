@@ -5,15 +5,21 @@
 - Polymorphism (Polimorfismo)
 
 ### Run 🚀
-`dotnet run`
+```
+dotnet run
+```
 
 ### Build ⚙️
-`dotnet build`
+```
+dotnet build
+```
 
 <hr>
 
 ### Create
-`dotnet new console`
+```
+dotnet new console
+```
 
 ### My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
