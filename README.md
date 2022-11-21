@@ -4,6 +4,7 @@
 - Inheritance (Herencia)
 - Polymorphism (Polimorfismo)
 - Encapsulation (Encapsulamiento)
+- Overload (Sobrecarga)
 
 ### Run 🚀
 ```
