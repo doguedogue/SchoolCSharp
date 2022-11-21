@@ -3,6 +3,7 @@
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
 - Inheritance (Herencia)
 - Polymorphism (Polimorfismo)
+- Encapsulation (Encapsulamiento)
 
 ### Run 🚀
 ```
