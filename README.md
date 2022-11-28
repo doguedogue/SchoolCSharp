@@ -5,7 +5,7 @@
 - Polymorphism (Polimorfismo)
 - Encapsulation (Encapsulamiento)
 - Overload (Sobrecarga)
-- Classes
+- Classes (Clases)
 
 ### Run 🚀
 ```
