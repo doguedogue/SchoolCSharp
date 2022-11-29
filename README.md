@@ -6,6 +6,7 @@
 - Encapsulation (Encapsulamiento)
 - Overload (Sobrecarga)
 - Classes (Clases)
+- Interfaces (Interfaces)
 
 ### Run 🚀
 ```
