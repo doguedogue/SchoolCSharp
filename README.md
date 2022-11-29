@@ -7,6 +7,7 @@
 - Overload (Sobrecarga)
 - Classes (Clases)
 - Interfaces (Interfaces)
+- Object/Instance (Objeto/Instancia)
 
 ### Run 🚀
 ```
