@@ -8,6 +8,7 @@
 - Classes (Clases)
 - Interfaces (Interfaces)
 - Object/Instance (Objeto/Instancia)
+- Types (Tipos)
 
 ### Run 🚀
 ```
