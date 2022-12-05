@@ -9,6 +9,7 @@
 - Interfaces (Interfaces)
 - Object/Instance (Objeto/Instancia)
 - Types (Tipos)
+- Static (estático)
 
 ### Run 🚀
 ```
