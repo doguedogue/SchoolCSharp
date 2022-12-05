@@ -10,6 +10,7 @@
 - Object/Instance (Objeto/Instancia)
 - Types (Tipos)
 - Static (estático)
+- Public, Private, Protected (Público, privado, protegido)
 
 ### Run 🚀
 ```
