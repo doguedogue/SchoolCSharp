@@ -11,6 +11,7 @@
 - Types (Tipos)
 - Static (estático)
 - Public, Private, Protected (Público, privado, protegido)
+- Enum
 
 ### Run 🚀
 ```
