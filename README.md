@@ -13,6 +13,7 @@
 - Public, Private, Protected (Público, privado, protegido)
 - Enum
 - int
+- Char
 
 ### Run 🚀
 ```
