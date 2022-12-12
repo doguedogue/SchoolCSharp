@@ -14,6 +14,7 @@
 - Enum
 - int
 - Char
+- double
 
 ### Run 🚀
 ```
