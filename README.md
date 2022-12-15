@@ -8,11 +8,11 @@
 - Classes (Clases)
 - Interfaces (Interfaces)
 - Object/Instance (Objeto/Instancia)
-- Types (Tipos)
+- Types: int, Char, double, String (Tipos)
 - Static (estático)
 - Public, Private, Protected (Público, privado, protegido)
 - Enum
-- int, Char, double, String
+
 
 ### Run 🚀
 ```
