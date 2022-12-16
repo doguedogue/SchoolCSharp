@@ -10,6 +10,7 @@
 - Object/Instance (Objeto/Instancia)
 - Types: int, Char, double, String (Tipos)
 - Static (estático)
+- Abstract (abstracto)
 - Public, Private, Protected (Público, privado, protegido)
 - Enum
 
