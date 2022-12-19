@@ -11,7 +11,7 @@
 - Types: int, Char, double, String (Tipos)
 - Static (estático)
 - Abstract (abstracto)
-- Public, Private, Protected (Público, privado, protegido)
+- Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
 - Enum
 
 
