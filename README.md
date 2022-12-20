@@ -12,6 +12,7 @@
 - Static (estático)
 - Abstract (abstracto)
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
+- Array
 - Enum
 
 
