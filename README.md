@@ -12,7 +12,7 @@
 - Static (estático)
 - Abstract (abstracto)
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
-- Collections: Array, List
+- Collections: Array, List (Colecciones: Arreglos, listas)
 - Enum
 
 
