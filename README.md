@@ -13,7 +13,7 @@
 - Abstract (abstracto)
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
 - Collections: Array, List (Colecciones: Arreglos, listas)
-- Methods 
+- Methods, Attributes 
 - Enum
 
 
