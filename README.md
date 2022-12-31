@@ -14,7 +14,7 @@
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
 - Collections: Array, List (Colecciones: Arreglos, listas)
 - Methods, Attributes (Métodos, atributos)
-- Enum, constants (final)
+- Enums, constants (final)
 
 
 ### Run 🚀
