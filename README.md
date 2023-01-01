@@ -15,6 +15,7 @@
 - Collections: Array, List (Colecciones: Arreglos, listas)
 - Methods, Attributes (Métodos, atributos)
 - Enums, constants (final)
+- instance of
 
 
 ### Run 🚀
