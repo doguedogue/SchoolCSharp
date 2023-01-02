@@ -16,6 +16,7 @@
 - Methods, Attributes (Métodos, atributos)
 - Enums, constants (final)
 - instance of
+- .net core
 
 
 ### Run 🚀
