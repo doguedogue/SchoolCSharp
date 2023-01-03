@@ -8,7 +8,7 @@
 - Classes (Clases)
 - Interfaces (Interfaces)
 - Object/Instance (Objeto/Instancia)
-- Types: int, Char, double, String, boolean (Tipos)
+- Types: int, Char, float, double, String, boolean (Tipos)
 - Static (estático)
 - Abstract (abstracto)
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
