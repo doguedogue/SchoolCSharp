@@ -17,6 +17,7 @@
 - Enums, constants (final)
 - instance of
 - .net core
+- return
 
 
 ### Run 🚀
