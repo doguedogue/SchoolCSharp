@@ -18,6 +18,7 @@
 - instance of
 - .net core
 - return
+- iterator
 
 
 ### Run 🚀
