@@ -20,7 +20,7 @@
 - return
 - iterator
 - for, while, do
-- if then
+- if then else
 
 
 ### Run 🚀
