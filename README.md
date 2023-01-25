@@ -21,7 +21,7 @@
 - iterator
 - for, while, do
 - if then else
-- { }
+- { } [ ]
 - operators + - * / ^ (operadores)
 
 
