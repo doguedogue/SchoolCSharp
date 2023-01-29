@@ -20,10 +20,9 @@
 - return
 - iterator
 - for, while, do
-- if then else
+- if then else switch
 - { } [ ]
 - operators + - * / ^ (operadores)
-
 
 ### Run 🚀
 ```
