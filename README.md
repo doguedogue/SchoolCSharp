@@ -22,7 +22,7 @@
 - for, while, do
 - if then else switch
 - { } [ ]
-- operators + - * / ^ (operadores)
+- Operators + - * / ^ (operadores)
 
 ### Run 🚀
 ```
