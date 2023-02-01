@@ -22,6 +22,7 @@
 - if then else switch
 - { } [ ]
 - Operators + - * / ^ (operadores)
+- == equal
 
 ### Run 🚀
 ```
