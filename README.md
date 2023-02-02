@@ -21,8 +21,7 @@
 - iterator, for, while, do
 - if then else switch
 - { } [ ]
-- Operators + - * / ^ (operadores)
-- == equal
+- Operators + - * / ^ == (operadores)
 
 ### Run 🚀
 ```
