@@ -23,6 +23,7 @@
 - { } [ ]
 - Operators + - * / ^ == (operadores)
 - Allocate = (Asignación)
+- ::
 
 ### Run 🚀
 ```
