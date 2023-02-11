@@ -21,8 +21,9 @@
 - iterator, for, while, do
 - if then else switch
 - { } [ ]
-- Operators + - * / ^ == (operadores)
-- Allocate = (Asignación)
+- Operators + - * / ^ (operadores)
+- Assignment = (Asignación)
+- Comparator == < > <= >=
 - :: ... ;
 
 ### Run 🚀
