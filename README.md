@@ -19,7 +19,7 @@
 - .Net core
 - return
 - iterator, for, while, do
-- if then else switch
+- Condition if then else switch
 - { } [ ]
 - Operators + - * / ^ (operadores)
 - Assignment = (Asignación)
