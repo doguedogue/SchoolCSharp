@@ -18,7 +18,7 @@
 - instance of
 - .Net core
 - return
-- iterator, for, while, do
+- Loops iterator, for, while, do
 - Condition if then else switch
 - { } [ ]
 - Operators + - * / ^ (operadores)
