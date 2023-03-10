@@ -24,7 +24,7 @@
 - Operators + - * / ^ (operadores)
 - Assignment = (Asignación)
 - Comparator == < > <= >=
-- :: ... ;
+- Others :: ... ;
 
 ### Run 🚀
 ```
