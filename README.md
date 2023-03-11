@@ -20,7 +20,7 @@
 - return
 - Loops iterator, for, while, do
 - Condition if then else switch
-- { } [ ]
+- Group { } [ ]
 - Operators + - * / ^ (operadores)
 - Assignment = (Asignación)
 - Comparator == < > <= >=
