@@ -17,7 +17,7 @@
 - Enums, constants (final)
 - instance of
 - .Net core
-- return
+- Exits return
 - Loops iterator, for, while, do
 - Condition if then else switch
 - Group { } [ ]
