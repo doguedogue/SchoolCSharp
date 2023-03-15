@@ -25,6 +25,7 @@
 - Assignment = (Asignación)
 - Comparator == < > <= >=
 - Others :: ... ;
+- Test
 
 ### Run 🚀
 ```
