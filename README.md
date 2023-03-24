@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Polymorphism (Polimorfismo)
 - Encapsulation (Encapsulamiento)
 - Overload (Sobrecarga)
 - Classes (Clases)
@@ -29,6 +28,7 @@
 | H1 | H2 |
 |----|----|
 Inheritance | Herencia
+Polymorphism | Polimorfismo
 
 ### Run 🚀
 ```
