@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Classes (Clases)
 - Interfaces (Interfaces)
 - Object/Instance (Objeto/Instancia)
 - Types: int, Char, float, double, String, boolean (Tipos: entero, carácter, flotante, doble, cadena, booleano)
@@ -23,12 +22,13 @@
 - Others :: ... ;
 - Build, Testing & Run
 
-| Char | Car |
+| Characteristics | Características |
 |----|----|
 Inheritance | Herencia
 Polymorphism | Polimorfismo
 Encapsulation | Encapsulamiento
 Overload | Sobrecarga
+Classes | Clases
 
 ### Run 🚀
 ```
