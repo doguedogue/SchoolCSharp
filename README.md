@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Static (estático)
 - Abstract (abstracto)
 - Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
 - Collections: Array, List (Colecciones: Arreglos, listas)
@@ -19,9 +18,9 @@
 - Others :: ... ;
 - Build, Testing & Run
 
-| Characteristics | Características |
-|----|----|
-Inheritance | Herencia
+| Characteristics | Características | Characteristics | Características |
+|----|----|----|----|
+Inheritance | Herencia | Static |estático
 Polymorphism | Polimorfismo
 Encapsulation | Encapsulamiento
 Overload | Sobrecarga
