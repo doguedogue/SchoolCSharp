@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Scope: Public, Private, Protected (Alcance: Público, privado, protegido)
 - Collections: Array, List (Colecciones: Arreglos, listas)
 - Methods, Attributes (Métodos, atributos)
 - Enums, constants (final)
@@ -21,7 +20,7 @@
 |----|----|----|----|
 Inheritance | Herencia | Static |estático
 Polymorphism | Polimorfismo | Abstract | abstracto
-Encapsulation | Encapsulamiento
+Encapsulation | Encapsulamiento | Scope: Public, Private, Protected | Alcance: Público, privado, protegido
 Overload | Sobrecarga
 Classes | Clases
 Interfaces | Interfaces
