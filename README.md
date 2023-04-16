@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Enums, constants (final)
 - instance of
 - .Net core
 - Exits return
@@ -21,7 +20,7 @@ Polymorphism | Polimorfismo | Abstract | abstracto
 Encapsulation | Encapsulamiento | Scope: Public, Private, Protected | Alcance: Público, privado, protegido
 Overload | Sobrecarga | Collections: Array, List | Colecciones: Arreglos, listas
 Classes | Clases | Methods, Attributes | Métodos, atributos
-Interfaces | Interfaces
+Interfaces | Interfaces | Enums, constants (final)
 Object/Instance | Objeto/Instancia
 Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flotante, doble, cadena, booleano
 
