@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Exits return
 - Loops iterator, for, while, do
 - Condition if then else switch
 - Groups { } [ ]
@@ -19,7 +18,7 @@ Encapsulation | Encapsulamiento | Scope: Public, Private, Protected | Alcance: P
 Overload | Sobrecarga | Collections: Array, List | Colecciones: Arreglos, listas
 Classes | Clases | Methods, Attributes | Métodos, atributos 
 Interfaces | Interfaces | Enums, constants (final) | instance of
-Object/Instance | Objeto/Instancia | .Net core
+Object/Instance | Objeto/Instancia | .Net core | Exits return
 Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flotante, doble, cadena, booleano
 
 ### Run 🚀
