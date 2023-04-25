@@ -1,7 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Comparator == < > <= >=
 - Others :: ... ;
 - Build, Testing & Run
 
@@ -16,7 +15,7 @@ Interfaces | Interfaces | Enums, constants (final) | instance of
 Object/Instance | Objeto/Instancia | .Net core | Exits return
 Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flotante, doble, cadena, booleano | Loops iterator, for, while, do
 Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación
-Operators + - * / ^ | operadores
+Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
 
 
 ### Run 🚀
