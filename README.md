@@ -1,8 +1,6 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
-- Build, Testing & Run
-
 | Characteristics | Características | Characteristics | Características |
 |----|----|----|----|
 Inheritance | Herencia | Static |estático
@@ -15,6 +13,7 @@ Object/Instance | Objeto/Instancia | .Net core | Exits return
 Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flotante, doble, cadena, booleano | Loops iterator, for, while, do | Others :: ... ;
 Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación 
 Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
+Build, Testing & Run
 
 
 ### Run 🚀
