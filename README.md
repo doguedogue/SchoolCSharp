@@ -15,6 +15,7 @@ Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación
 Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
 Build, Testing & Run
 
+<hr>
 
 ### Run 🚀
 ```
