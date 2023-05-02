@@ -13,7 +13,7 @@ Object/Instance | Objeto/Instancia | .Net core | Exits return
 Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flotante, doble, cadena, booleano | Loops iterator, for, while, do | Others :: ... ;
 Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación 
 Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
-Build, Testing & Run
+Build | Testing | Run
 
 <hr>
 
