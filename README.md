@@ -14,18 +14,8 @@ Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flo
 Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación 
 Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
 Build | Deploy | Run | Testing
-
-<hr>
-
-### Run 🚀
-```
-dotnet run
-```
-
-### Build ⚙️
-```
-dotnet build
-```
+Run 🚀 | Build ⚙️
+``` dotnet run ``` | ``` dotnet build```
 
 <hr>
 
