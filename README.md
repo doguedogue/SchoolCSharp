@@ -14,15 +14,11 @@ Types: int, Char, float, double, String, boolean | Tipos: entero, carácter, flo
 Condition if then else switch | Groups { } [ ] |  Assignment = | Asignación 
 Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
 Build | Deploy | Run | Testing
-Run 🚀 | Build ⚙️
-``` dotnet run ``` | ``` dotnet build```
+Run 🚀 | Build ⚙️ | Create
+``` dotnet run ``` | ``` dotnet build``` | ``` dotnet new console```
 
 <hr>
 
-### Create
-```
-dotnet new console
-```
 
 ### My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
