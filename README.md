@@ -3,7 +3,7 @@
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
 | Characteristics | Características | Characteristics | Características |
 |----|----|----|----|
-Inheritance | Herencia | Static |estático
+Inheritance | Herencia | Static | estático
 Polymorphism | Polimorfismo | Abstract | abstracto
 Encapsulation | Encapsulamiento | Scope: Public, Private, Protected | Alcance: Público, privado, protegido
 Overload | Sobrecarga | Collections: Array, List | Colecciones: Arreglos, listas
@@ -18,7 +18,6 @@ Run 🚀 | Build ⚙️ | Create
 ``` dotnet run ``` | ``` dotnet build``` | ``` dotnet new console```
 
 <hr>
-
 
 ### My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
