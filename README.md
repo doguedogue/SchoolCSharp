@@ -16,9 +16,7 @@ Operators + - * / ^ | operadores | Comparator == < > <= >=  | Comparador
 Build | Deploy | Run | Testing
 Run 🚀 | Build ⚙️ | Create
 ``` dotnet run ``` | ``` dotnet build``` | ``` dotnet new console```
-
-
-### My curly braces formatting
+My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
 ```
 {
