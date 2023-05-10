@@ -17,7 +17,6 @@ Build | Deploy | Run | Testing
 Run 🚀 | Build ⚙️ | Create
 ``` dotnet run ``` | ``` dotnet build``` | ``` dotnet new console```
 
-<hr>
 
 ### My curly braces formatting
 `%USERNAME%\.omnisharp\omnisharp.json`
