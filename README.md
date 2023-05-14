@@ -1,6 +1,7 @@
 # C# (sharp) School 🎒
 
 ## OOP Object Oriented Programming (POO Programación Orientada a Objetos)
+<hr>
 | Characteristics | Características | Characteristics | Características |
 |----|----|----|----|
 Inheritance | Herencia | Static | estático
